@@ -48,7 +48,6 @@ struct ContentView: View {
 				Section(header: Text("Amount per person")) {
 					Text("$ \(totalPerPerson, specifier: "%.2f")")
 				}
-
 				Section(header: Text("Total amount for check")) {
 					Text("$ \(grandTotal, specifier: "%.2f")")
 				}
